@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 // import Add from './components/Add';
 /* 
 
-41.30
+51.00
 
 */
 function App() {
