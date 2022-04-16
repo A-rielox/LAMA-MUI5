@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 // import Add from './components/Add';
 /* 
 
-51.00
+56.00
 
 */
 function App() {
@@ -14,7 +14,11 @@ function App() {
       <Box>
          <Navbar />
 
-         <Stack direction="row" spacing={2} justifyContent="space-between">
+         <Stack
+            direction="row"
+            spacing={{ xs: 0, sm: 2 }}
+            justifyContent="space-between"
+         >
             <Sidebar />
             <Feed />
             <Rightbar />
@@ -24,3 +28,6 @@ function App() {
 }
 
 export default App;
+
+// sx={{ display: { xs: 'none', sm: 'block' } }}
+// sx={{ display: { xs: 0, sm: 2 } }}
