@@ -1,11 +1,5 @@
 import React from 'react';
 
-/* 
-
-41.30
-
-*/
-
 import { styled } from '@mui/material/styles';
 
 import {
@@ -23,6 +17,7 @@ import {
 import PetsIcon from '@mui/icons-material/Pets';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+// import { Mail, Notifications, Pets } from "@mui/icons-material";
 
 // CONPONENTS
 const StyledToolbar = styled(Toolbar)({
