@@ -77,7 +77,7 @@ const Add = () => {
 
                <UserBox>
                   <Avatar
-                     src="https://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT08oabrJQnMjH3DSUTE-kO6k6_TmU8YimFPQ&usqp=CAU"
                      sx={{ width: 30, height: 30 }}
                   />
                   <Typography fontWeight={500} variant="span">

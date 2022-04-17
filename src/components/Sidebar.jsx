@@ -26,7 +26,7 @@ import {
 // 😭😭😭😭😭😭
 // xsi solo no lo arregla bien, se sobrepone al achicar pantalla
 
-const Sidebar = () => {
+const Sidebar = ({ setMode, mode }) => {
    return (
       <Box
          // bgcolor="skyblue"
@@ -112,7 +112,12 @@ const Sidebar = () => {
                         <ModeNight />
                      </ListItemIcon>
 
-                     <Switch color="secondary" />
+                     <Switch
+                        color="secondary"
+                        onChange={e =>
+                           setMode(mode === 'light' ? 'dark' : 'light')
+                        }
+                     />
                   </ListItemButton>
                </ListItem>
             </List>
