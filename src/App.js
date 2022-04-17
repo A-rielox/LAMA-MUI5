@@ -3,7 +3,7 @@ import Feed from './components/Feed';
 import Rightbar from './components/Rightbar';
 import { Box, Stack } from '@mui/material';
 import Navbar from './components/Navbar';
-// import Add from './components/Add';
+import Add from './components/Add';
 /* 
 
 56.00
@@ -23,6 +23,8 @@ function App() {
             <Feed />
             <Rightbar />
          </Stack>
+
+         <Add />
       </Box>
    );
 }
